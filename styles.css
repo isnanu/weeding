@@ -1,0 +1,231 @@
+html {
+    scroll-behavior: smooth;
+}
+.bgImgDesktop {
+    width: 100vw; 
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* DASHBOARD AWAL */
+.body {
+    display: inline-block;
+    position: relative;
+}
+.bgImgDesktop {
+    width: 100vw; 
+    height: 100vh;
+    object-fit: cover;
+}
+.topTextContainer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: transparent;
+    color: #fff;
+    align-items: center;
+}
+.containerTextTop {
+    padding: 0px 50px 0px 50px;
+    background-color: rgba(250, 127, 127, 0.8);
+    border-radius: 10px 10px 0px 0px;   
+    box-shadow: 0 0 0 1px rgba(230, 218, 218, 0.8);
+}
+.containerOpenButton {
+    padding: 0px 0px 0px 0px;
+    margin-top: 0p;
+    background-color: rgba(61, 42, 42, 0.8);
+    border-radius: 0px 0px 10px 10px;   
+    box-shadow: 0 0 0 1px rgba(230, 218, 218, 0.8);
+}
+.textInit {
+    font-family: verdana;
+    font-size: x-small;
+    text-align: center;
+    font-weight:bolder;
+    padding: 0;
+    margin: 0;
+}   
+.textName {
+    font-family: verdana;
+    font-size: small;
+    text-align: center;
+    font-weight:bolder;
+    padding: 20px 20px;
+    margin: 0;
+}   
+.textButton {
+    font-family: verdana;
+    font-size: small;
+    text-align: center;
+    font-weight:bolder;
+    padding: 15px 15px;
+    color: rgb(170, 160, 160);
+}
+#containerButton:hover  {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+/* SECTION 1 */
+#section1 {
+    width: 100vw; 
+    height: 100vh;
+    background-image:url('https://www.blibli.com/friends/assets/2019/01/foto-pre-wedding-5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    position:relative;
+}
+.section1 {
+    width: 100vw; 
+    height: 100vh;
+    background-color: rgba(53, 53, 53, 0.6);
+}
+.section1Container {
+    top: 65%;
+    color:white;
+    position:absolute; 
+}
+.textTopHeader {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: "serif";
+    text-shadow: 1px 1px 1px rgb(82, 73, 73);
+    font-size: 20px;
+}
+.textTopName1 {
+    text-align: right;
+    font-size: 70px;
+    padding: 0;
+    margin: 0;
+    font-family: "Snell Roundhand";
+    text-shadow: 1px 1px 1px rgb(82, 73, 73);
+}
+.textTopName2 {
+    text-align: center;
+    font-size: 50px;
+    padding: 0;
+    margin: 0;
+    font-family: "Snell Roundhand";
+    text-shadow: 1px 1px 1px rgb(82, 73, 73);
+    
+}
+.textTopName3 {
+    text-align: left;
+    font-size: 70px;
+    padding: 0;
+    margin: 0;
+    font-family: "Snell Roundhand";
+    text-shadow: 1px 1px 1px rgb(82, 73, 73);
+}
+.textTopDate {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-family: "serif";
+    text-shadow: 1px 1px 1px rgb(82, 73, 73);
+    font-size: 20px;
+} 
+
+
+/* SECTION 2 */
+#section2 {
+    width: 100vw; 
+    /* height: 100vh; */
+    background-image:url('https://www.blibli.com/friends/assets/2019/01/foto-pre-wedding-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    position:relative;
+}
+.section2 {
+    width: 100vw; 
+    /* height: 100vh; */
+    background-color: rgba(53, 53, 53, 0.6);
+}
+.section2Container {
+    color:white;
+}
+#storyContainer {
+    align-items: center;
+    padding-top: 2%;
+}
+.loveStoryHeader {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 2%;
+    margin: 0;
+    font-family: "Snell Roundhand";
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(82, 73, 73);
+}
+.loveStoryHope {
+    text-align: center;
+    font-size: 15px;
+    margin: 0;
+    font-family: "arial";
+    /* font-weight: bold; */
+    text-shadow: 1px 1px 1px rgb(82, 73, 73);
+}
+
+
+/* SECTION 3 */
+#section3 {
+    width: 100vw; 
+    min-height: 100vh;
+    background-image:url('https://www.blibli.com/friends/assets/2019/01/foto-pre-wedding-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    position:relative;
+}
+.section3 {
+    width: 100vw; 
+    min-height: 100vh;
+    background-color: rgba(53, 53, 53, 0.6);
+}
+.section3Container {
+    color:white;
+}
+
+
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 60px;
+    right: 5px;
+    z-index: 99;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    background-color: rgba(53, 53, 53, 0.8);
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 10px;
+}
+#myBtn:hover {
+    background-color: #555;
+}
+#myBtnMusic {
+    display: block;
+    position: fixed;
+    bottom: 50%;
+    left: 5px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: rgba(53, 53, 53, 0.8);
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+#myBtnMusic:hover {
+    background-color: #555;
+}
+
