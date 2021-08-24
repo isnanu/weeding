@@ -39,5 +39,5 @@ function stopButton() {
 function openInvitation () {
     $('#contentSection').show();
     $('#contentDashboardAwal').hide();
-    this.playButton();
+    // this.playButton();
 }
