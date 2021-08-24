@@ -193,6 +193,72 @@ html {
 
 
 
+/* SECTION 4 */
+#section4 {
+    width: 100vw; 
+    min-height: 100vh;
+    /* background-image:url('https://www.blibli.com/friends/assets/2019/01/foto-pre-wedding-5.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    position:relative;
+}
+.section4 {
+    width: 100vw; 
+    min-height: 100vh;
+    background-color: rgba(53, 53, 53, 0.6);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.section4Container {
+    color:white;
+}
+.thumbnailImgGallery {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.image-thumbnail {
+    width: 100%;
+}
+.galleryHeader {
+    text-align: center;
+    font-size: 30px;
+    margin: 0;
+    font-family: "Brush Script MT";
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(82, 73, 73);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+/* SECTION 5 */
+#section5 {
+    width: 100vw; 
+    min-height: 100vh;
+    background-image:url('https://www.blibli.com/friends/assets/2019/01/foto-pre-wedding-6.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+    position:relative;
+}
+.section5 {
+    width: 100vw; 
+    min-height: 100vh;
+    background-color: rgba(53, 53, 53, 0.6);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.section5Container {
+    color:white;
+}
+
 #myBtn {
     display: none;
     position: fixed;
