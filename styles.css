@@ -197,7 +197,7 @@ html {
 #section4 {
     width: 100vw; 
     min-height: 100vh;
-    /* background-image:url('https://www.blibli.com/friends/assets/2019/01/foto-pre-wedding-5.jpg'); */
+    background-image:url('https://images.pexels.com/photos/1563356/pexels-photo-1563356.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 50%;
@@ -258,6 +258,36 @@ html {
 .section5Container {
     color:white;
 }
+.invitationHeader {
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(82, 73, 73);
+    text-align: center; 
+    color: white; 
+    font-size: 25px
+}
+.cardBox {
+    text-align: left; 
+    color: black; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cardRekeningHeader {
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+    text-align: center; 
+    color: black; 
+    font-size: 15px
+}
+.headerCard {
+    font-size: 15px; 
+    font-weight: bold;
+}
+
+
+
 
 #myBtn {
     display: none;

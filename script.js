@@ -39,5 +39,18 @@ function stopButton() {
 function openInvitation () {
     $('#contentSection').show();
     $('#contentDashboardAwal').hide();
-    // this.playButton();
+    this.playButton();
+}
+
+function copyText() {
+    /* Get the text field */
+    var copyText = document.getElementById("textRek");
+  
+     /* Copy the text inside the text field */
+    copyText.select();
+    copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+    navigator.clipboard.writeText(copyText.value).then({
+        
+    })
 }
