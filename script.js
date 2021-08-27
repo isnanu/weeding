@@ -37,8 +37,10 @@ function stopButton() {
 }
 
 function openInvitation () {
-    $('#contentSection').show();
-    $('#contentDashboardAwal').hide();
+    // $('#contentSection').show();
+    // $('#contentDashboardAwal').hide();
+    $('#contentDashboardAwal').fadeOut();
+    $('#contentSection').fadeIn();
     this.playButton();
 }
 

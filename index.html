@@ -2,7 +2,7 @@
 <html lang="en" >
     <head>
         <!-- <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
         <title>Undangan Nikah</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="mobileStyles.css">
         <link rel="stylesheet" href="timelineStyles.css">
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
         <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
@@ -25,22 +25,32 @@
             <div class="body" >
                 <img src="image/bingkai-undangan-34131.png" 
                     class="bgImgDesktop"    
+                    style="filter: blur(2px);
+                    -webkit-filter: blur(2px);"
                 >
-
-                <div class="topTextContainer">
-                    <div class="containerTextTop">
-                        <p class="textInit">Kepada Yth.</p> 
-                        <p class="textInit">Bapak/Ibu/Saudara/i</p>
-                        <p class="textName">Erdi Isnanu</p>
+                
+                <div class="bg-text">
+                    <div class="topTextContainer">
+                        <div style="text-align: center; padding-bottom: 20px;">
+                            <img src="https://www.blibli.com/friends/assets/2019/01/foto-pre-wedding-4.jpg" class="rounded" style="width: 50%;">
+                        </div>
+                        <div style="text-align: center;">
+                            <span style="font-size: 15px;">Kepada Yth.</span>
+                            <br>
+                            <span style="font-size: 15px;">Bapak/Ibu/Saudara/i</span>
+                            <div style="padding-top: 10px;">
+                                <p><span style="font-size: 20px; font-weight: bold;">Erdi Isnanu</span></p>
+                            </div>
+                        </div>
+                        <div style="text-align: center; justify-content: center;">
+                            <a href="#" onclick="openInvitation()" style="justify-self: center; justify-content: center;">
+                                <button type="button" class="col-md-3 col-sm-12 btn" style="color: white; background-color: rgb(185, 96, 141); padding: 10px 10px;">
+                                    <span style="font-weight: bold;"><i class="fa fa-envelope fa-sm"></i> BUKA UNDANGAN</span>
+                                </button>
+                            </a>
+                        </div>
                     </div>
-                    <div class="containerOpenButton" id="containerButton">
-                        <a href="#" onclick="openInvitation()" style="text-decoration:none;">
-                            <p class="textButton">BUKA UNDANGAN</p>
-                        </a>
-                    </div>
-                </div>
 
-                <div>
                 </div>
             </div>
         </div>
@@ -55,9 +65,9 @@
                     <div class="section1Container col-12" >
                         <div style="align-items: center; align-content: center;"><p class="textTopHeader" style="text-align: center;">The Weeding of</p></div>
                         <div style="text-align: center;" class="row col-13">
-                            <div style="align-content: center; align-items: center;" class="col-lg-5 col-sm-auto" ><p style="text-align: center;" class="textTopName1">Ricxy</p></div>
+                            <div style="align-content: center; align-items: center;" class="col-lg-5 col-sm-auto" ><p style="text-align: center;" class="textTopName1">Erdi Isnanu</p></div>
                             <div style="align-content: center; align-items: center;" class="col-lg-2 col-sm-auto" ><p style="text-align: center;" class="textTopName2"> &nbsp; &  &nbsp;</p></div>
-                            <div style="align-content: center; align-items: center;" class="col-lg-5 col-sm-auto" ><p style="text-align: center;" class="textTopName3">Ayu Anggita</p></div>
+                            <div style="align-content: center; align-items: center;" class="col-lg-5 col-sm-auto" ><p style="text-align: center;" class="textTopName3">??????????</p></div>
                         </div>
                         <div style="align-items: center; align-content: center;" ><p class="textTopDate" style="text-align: center;">Minggu, 06 Juni 2021</p></div>
                     </div>
@@ -324,7 +334,7 @@
                                         <p>Bank BCA</p>
                                         <p>No Rek : 6127 99180 1289938 <button id="copy-text" onclick="copyText()"><i class="fa fa-copy fa-lg"></i></button></p> 
                                         <input id="textRek" type="text" value="6127 99180 1289938" hidden>
-                                        <p>A/N Ricxy</p>
+                                        <p>A/N Erdi Isnanu</p>
                                     </div>
                                 </div>
                                 <div>
@@ -352,49 +362,49 @@
                                             <div class="col-sm-12 card cardBox">
                                                 <div class="card-body">
                                                     <p class="headerCard">Bambang : </p>
-                                                    <p style=" font-size: 15px">Selamat ya Ricxy, wish you all the best</p>
+                                                    <p style=" font-size: 15px">Selamat ya Erdi Isnanu, wish you all the best</p>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 card cardBox">
                                                 <div class="card-body">
                                                     <p class="headerCard">Wahyu : </p>
-                                                    <p style=" font-size: 15px">Selamat ya Ricxy, wish you all the best</p>
+                                                    <p style=" font-size: 15px">Selamat ya Erdi Isnanu, wish you all the best</p>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 card cardBox">
                                                 <div class="card-body">
                                                     <p class="headerCard">Budy : </p>
-                                                    <p style=" font-size: 15px">Selamat ya Ricxy, wish you all the best</p>
+                                                    <p style=" font-size: 15px">Selamat ya Erdi Isnanu, wish you all the best</p>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 card cardBox">
                                                 <div class="card-body">
                                                     <p class="headerCard">Robert : </p>
-                                                    <p style=" font-size: 15px">Selamat ya Ricxy, wish you all the best</p>
+                                                    <p style=" font-size: 15px">Selamat ya Erdi Isnanu, wish you all the best</p>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 card cardBox">
                                                 <div class="card-body">
                                                     <p class="headerCard">Arief : </p>
-                                                    <p style=" font-size: 15px">Selamat ya Ricxy, wish you all the best</p>
+                                                    <p style=" font-size: 15px">Selamat ya Erdi Isnanu, wish you all the best</p>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 card cardBox">
                                                 <div class="card-body">
                                                     <p class="headerCard">Fajar : </p>
-                                                    <p style=" font-size: 15px">Selamat ya Ricxy, wish you all the best</p>
+                                                    <p style=" font-size: 15px">Selamat ya Erdi Isnanu, wish you all the best</p>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 card cardBox">
                                                 <div class="card-body">
                                                     <p class="headerCard">Dimas : </p>
-                                                    <p style=" font-size: 15px">Selamat ya Ricxy, wish you all the best</p>
+                                                    <p style=" font-size: 15px">Selamat ya Erdi Isnanu, wish you all the best</p>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 card cardBox">
                                                 <div class="card-body">
                                                     <p class="headerCard">Abraham : </p>
-                                                    <p style=" font-size: 15px">Selamat ya Ricxy, wish you all the best</p>
+                                                    <p style=" font-size: 15px">Selamat ya Erdi Isnanu, wish you all the best</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -405,7 +415,7 @@
                         </div>
                         <div style="padding-bottom: 100px; padding-top: 50px;">
                             <div ><p class="invitationHeader">Thankyou</p></div>
-                            <div ><p class="invitationHeader">~ Ricxy & Ayu Anggita ~</p></div>
+                            <div ><p class="invitationHeader">~ Erdi Isnanu & ?????????? ~</p></div>
                         </div>
                     </div>
 
